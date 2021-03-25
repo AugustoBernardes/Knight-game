@@ -60,7 +60,7 @@ function inputAttack(){
                 setTimeout(() => {
                     restart()
                     alert("Congrats! You killed the boss!")
-                }, 3500);
+                }, 4000);
                 
                 break
             } 
@@ -99,7 +99,7 @@ function inputAttack(){
         alert("You're dead!")
 
         restart()
-        }, 3500);
+        }, 4000);
     
     } 
 
