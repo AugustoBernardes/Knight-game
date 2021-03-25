@@ -45,7 +45,7 @@ function inputAttack(){
                 <p>You: "Hit the boss" </p>
                 <p>Boss: Wait? How!</p>
                 <p>You: I said i'm the best ! </p>
-                <p>Boss: Nooooo... (DEAD) ""</p>
+                <p>Boss: Nooooo... (DEAD) </p>
                 `
     
                 bossImage.remove()
@@ -92,7 +92,7 @@ function inputAttack(){
     if (playerLife == 0 ){
         chat.innerHTML = `
         <p>You: "Missed" </p>
-        <p>You: No please..Don't kill me ! </p>
+        <p>You: No please..Don't kill me! </p>
         <p>Boss: HaHaHa...I said,now DIE!</p>
         `
         setTimeout(() => {
