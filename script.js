@@ -45,7 +45,7 @@ function inputAttack(){
                 <p>You: "Hit the boss" </p>
                 <p>Boss: Wait? How!</p>
                 <p>You: I said i'm the best ! </p>
-                <p>Boss: Nooooo... (DEAD) </p>
+                <p>Boss: Nooooo... (DEAD) ""</p>
                 `
     
                 bossImage.remove()
@@ -60,7 +60,7 @@ function inputAttack(){
                 setTimeout(() => {
                     restart()
                     alert("Congrats! You killed the boss!")
-                }, 4000);
+                }, 3900);
                 
                 break
             } 
@@ -71,11 +71,19 @@ function inputAttack(){
                 playerLife = playerLife - 1
                 playerLifes.innerHTML = `${playerLife}`
     
+                setTimeout(() => {
+                    chat.innerHTML = `
+                    <p>Fighiting...</p>
+                    `
+                    
+                }, 3500);
+
                 chat.innerHTML = `
-                <p>Boss: You missed boy...</p>
-                <p>You: I will kill you!</p>
-                <p>Boss: You can try !</p>
+                <p>Boss: You missed, you gonna die!</p>
+                <p>You: I will kill you.</p>
+                <p>Boss: Lets see...</p>
                 `
+               
                 break
             }
         }
@@ -92,14 +100,14 @@ function inputAttack(){
     if (playerLife == 0 ){
         chat.innerHTML = `
         <p>You: "Missed" </p>
-        <p>You: No please..Don't kill me! </p>
+        <p>You: No please..Don't kill me ! </p>
         <p>Boss: HaHaHa...I said,now DIE!</p>
         `
         setTimeout(() => {
         alert("You're dead!")
 
         restart()
-        }, 4000);
+        }, 3500);
     
     } 
 
