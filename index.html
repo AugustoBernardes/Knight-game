@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./assets/images/icon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+    <title>Knight Game</title>
+</head>
+<body>
+    <!-- Text on top  -->
+    <div class="top-text">
+       <p class="game-name">Knight game</p> 
+        <p class="text-imersão">Imersão <span class="span-dev"><a class="link-alura" href="https://www.alura.com.br">Dev_</span></a></p>
+    </div>
+
+    <!-- Game container -->
+    <div class="container">
+       <p class ="text-boss">The Boss</p>
+        <div  class="display-game">
+            <div id="gameDisplay" class="boss">
+                <img id="changeBossImage" class="boss-image" src="./assets/images/boss.png" >
+                <div id="deleteLife" class="boss-life"></div>
+            </div>
+            <div class="player-life-background">
+                <p>Your Life: <span id="playerLife">3</span></p> <img class="player-heart" src="./assets/images/heart.png">
+            </div>
+        </div>
+        <div class="chat">
+            <div id="text" class="chat-message">
+                <p>Boss: Hahaha.You can't kill me !</p>
+                <p>You: Ok... Lets see</p>
+            </div>
+        </div>
+        <div class="player-attacks">
+            <p class="attack-title">Attack List <img class="attack-icon" src="./assets/images/sword.png"></p>
+            <ul class="attacks">
+                <li class="attack-itens">1- Fire Sword</li>
+                <li class="attack-itens">2- Blood Sword</li>
+                <li class="attack-itens">3- Punch</li>
+                <li class="attack-itens">4- Kick</li>
+                <li class="attack-itens">5- Bomb</li>
+            </ul>
+        </div>
+        <input id="playerInput" placeholder="Your attack"  type="number">
+        <button class="attack-button" onclick="inputAttack()">Attack!</button>
+        <button class="restart-button" onclick="restart()">Restart</button>
+    </div>
+    <p class="credit">Developed by<a class="github-link" href="https://github.com/AugustoBernardes">Augusto</a></p>
+    <script src="./script.js"></script>
+</body>
+</html>

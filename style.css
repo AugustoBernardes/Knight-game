@@ -1,0 +1,256 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'DotGothic16', sans-serif;
+    background-color: gray;
+    color: white;
+}
+
+/* Fist Text */
+
+.top-text{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.game-name{
+    margin-top: 20px;
+    font-size: 30px;
+    background-color: rgb(18, 18, 18);
+    padding: 10px;
+    border-radius: 5px;
+    border: solid white 1px; 
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.9)
+}
+
+.text-imersão{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.span-dev{
+    background-color: rgb(60,134,249);
+    padding-right: 5px ;
+    padding-left: 5px;    
+}
+
+.link-alura{
+    text-decoration: none;
+    color: black;
+}
+
+.link-alura:hover{
+    color: white;
+}
+
+/* Game Container */
+.container{
+    width: 300px;
+    height: 640px;
+    background-color: rgb(67, 66, 66);
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.9)
+}
+
+.text-boss{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 90%;
+    padding: 5px;
+    background-color: rgb(18, 18, 18);
+    border-radius: 5px;
+    border:solid white 1px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4)
+}
+
+.display-game{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 90%;
+    height: 700px;
+    background-color: rgb(18, 18, 18);
+    border-radius: 5px;
+    border: solid white 2px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4)
+}
+
+/* Boss */
+
+.boss{
+    position: absolute;
+    top: 10%;
+    width: 40%;
+    
+}
+
+.boss-image{
+    width: 120px;
+    top: 10%;
+}
+
+.boss-life{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(243, 0, 0);
+}
+
+
+
+/* Player */
+
+.player-life-background{
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 30px;
+    bottom: 0%;
+    background-color:rgb(34, 34, 34);
+    border:solid white 1px;
+}
+.player-heart{
+    width: 20px;
+    margin-left: 5px;
+}
+
+/* Chat */
+
+.chat{
+    width: 90%;
+    height: 100px;
+    margin-top: 10px;
+    background-color: rgb(18, 18, 18);
+    border: solid white 2px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4)
+}
+
+.chat-message{
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+
+/* Player Attacks */
+
+.player-attacks{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 90%;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    border: solid 2px white;
+    background-color: rgb(18, 18, 18);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4)
+
+    
+}
+
+.attack-title{
+    margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.attacks{
+    list-style: none;
+}
+
+.attack-icon{
+    width: 25px;
+    height: 20px;
+}
+
+.attack-itens{
+    font-size: 15px;
+}
+
+/* Player input */
+
+#playerInput{
+    margin-top: 10px;
+    border-radius: 5px;
+    border:none;
+    text-align: center;  
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4)
+}
+
+/* Button Attack */
+
+.attack-button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid white 1px;
+    color: white;
+    background: rgb(34, 34, 34);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4);
+}
+
+.attack-button:hover{
+    background:white ;
+    color: rgb(34, 34, 34);
+    border: solid rgb(34, 34, 34) 2px;
+}
+
+/* Restart Button */
+
+.restart-button{
+    margin-top: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    border: solid white 1px;
+    color: white;
+    background: rgb(34, 34, 34);
+    box-shadow: 5px 5px 5px rgb(0,0,0,0.4);
+    margin-bottom: 10px;
+}
+
+.restart-button:hover{
+    background:white ;
+    color: rgb(34, 34, 34);
+    border: solid rgb(34, 34, 34) 2px;
+}
+
+
+/* Credit */
+
+.credit{
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+   margin-bottom: 20px;
+}
+
+/* GitHub Link */
+.github-link{
+    text-decoration: none;
+    margin-left: 5px;
+    color: rgb(34, 34, 34);
+}
+
+.github-link:hover{
+    color:white ;
+    
+}
