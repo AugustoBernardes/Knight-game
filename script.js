@@ -73,7 +73,7 @@ function inputAttack(){
     
                 setTimeout(() => {
                     chat.innerHTML = `
-                    <p>Fighiting...</p>
+                    <p>Fighting...</p>
                     `
                     
                 }, 3500);
