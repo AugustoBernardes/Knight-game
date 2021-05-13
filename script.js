@@ -32,8 +32,6 @@ function inputAttack(){
 
     let attack = parseInt(attackInput.value)
 
-    console.log("The boss number is :" )
-
     while (playerLife > 0){
        
         if(attack >= 1 && attack <= 5 ){
