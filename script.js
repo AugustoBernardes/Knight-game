@@ -34,7 +34,7 @@ function inputAttack(){
     
     console.log(attack)
 
-    console.log("The boss number is :" bossNumber)
+    console.log("The boss number is :" + bossNumber)
 
     while (playerLife > 0){
        
