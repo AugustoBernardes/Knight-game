@@ -24,7 +24,7 @@ let playerLife = 3
 // Boss number beetween (1 and 3)
 let bossNumber = parseInt(Math.random() * 5) + 1
 
-console.log(bossNumber)
+console.log('Boss number : 'bossNumber)
 
 function inputAttack(){
 
