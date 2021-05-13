@@ -31,9 +31,8 @@ function inputAttack(){
     let attackInput = document.getElementById("playerInput")
 
     let attack = parseInt(attackInput.value)
-   
 
-    console.log("The boss number is :" , bossNumber)
+    console.log("The boss number is :" )
 
     while (playerLife > 0){
        
